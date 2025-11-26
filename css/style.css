@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    padding-top: 135px;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    width: 573px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+
+}
+
+.btn {
+    background-color: #0b8b6a;
+    color: #fff !important;
+    padding: 8px 22px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #1a1b1a;
+}
+
+.banner img {
+    margin-left: -300px;
+    margin-top: 217px;
+}
+
+.benefit {
+    padding: 120px 0;
+}
+
+.benefit p {
+    width: 692px;
+    text-align: center;
+}
+
+.benefit-card {
+    width: 370px;
+    margin: auto;
+    padding: 62px 53px 63px 54px;
+    transition: 0.3s;
+
+}
+
+.benefit-card:hover {
+    box-shadow: 0 8px 25px #61616150;
+    /* border: 2px solid #616161; */
+    border-radius: 14px;
+    transform: translateY(-5px);
+
+}
+
+/* slider part */
+.card {
+    border: none;
+
+}
+
+.travel-card {
+    padding: 10px;
+    object-fit: cover;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.travel-card img {
+    border-radius: 14px;
+    width: 329px;
+    margin: auto;
+
+}
+
+.travel-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px #61616150;
+}
+
+/*  go travel discover css */
+.fa-solid {
+    color: #007F5F;
+    font-size: 24px;
+}
+
+.discover-card {
+    padding: 62px 32px;
+    width: 270px;
+    transition: 0.3s;
+
+}
+
+.discover-card:hover {
+    background-color: #007F5F !important;
+    color: #ffffff;
+    transform: translateY(-5px);
+
+}
+
+.discover-card h2 {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    padding-block-start: 20px;
+}
+
+.discover-card p {
+    font-size: 25px;
+    font-weight: 400;
+    /* color: #616161; */
+}
+
+
+.discover-card .fa-solid {
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+
+.discover-card .fa-solid:hover {
+    background-color: #ffffff !important;
+    transform: scale(1.08);
+}
+
+
+/* explore top destination css */
+.explore .btn {
+    background-color: #f3f3f3;
+    color: #616161 !important;
+}
+
+.explore .btn:hover {
+    background-color: #007F5F;
+    color: #ffffff !important;
+}
+
+
+/* subscribe css */
+.subscribe {
+    background-image: url(/images/subscribeImg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content {
+    padding: 150px;
+}
+
+.content h2 {
+    font-size: 40px;
+    font-weight: 500;
+    width: 659px;
+    margin: auto;
+}
+
+.content p {
+    width: 565px;
+    margin: auto;
+    padding: 20px 0 52px 0;
+}
+
+.subscribe-box {
+    background: #ffffff;
+    width: 770px;
+    height: 100px;
+    border-radius: 17px;
+}
+
+.subscribe-btn {
+    padding: 29px 39px;
+}
+
+.subscribe-box input {
+    border-radius: 17px;
+    padding-left: 20px;
+
+}
+
+/* footer part css */
+footer {
+    padding: 150px 0 105px 0;
+
+}
+
+.socialIcon .Icon {
+    width: 48px;
+    height: 48px;
+    padding-top: 40px;
+    letter-spacing: 40px;
+
+}
